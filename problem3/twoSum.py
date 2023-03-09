@@ -1,12 +1,12 @@
 import unittest
 
 def twoSum(nums: list[int], target: int) -> list[int]:
-    complements = {}
+    dict_Done = {}
     for i, num in enumerate(nums):
-        if target - num in complements:
-            return [complements[target - num], i]
-        complements[num] = i
-        print(complements)
+        if target - num in dict_Done:
+            return [dict_Done[target - num], i]
+        dict_Done[num] = i
+        #print(dict_Done)
     return []
 
 class TestTwoSum(unittest.TestCase):
