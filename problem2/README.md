@@ -7,3 +7,5 @@ The Bank class has a `transfer` function that accepts three arguments: `account1
 The `deposit` function accepts two arguments: `account` and `money`. It checks if the account is in the range of the accounts and then increases the `money` in that account by the given `money`.
 
 Similarly, the `withdraw` function checks the range of the account and also checks the balance of that account. If the account exists and has enough balance, the `withdraw` function subtracts the given `money` from the account.
+
+to use the program , the user can run it through python or in VSCode

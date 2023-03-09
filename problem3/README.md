@@ -13,3 +13,5 @@ in this code I use dict_Done to keep the value that we already check it
 6.We compute the difference between target and 7, which is 2.
 7.We check if 2 is in the seen dictionary. It is, with value 0.
 8.We return the value 0 and 1 in a list [0, 1], indicating that the numbers at those value (2 and 7) add up to target.
+
+to use the program , the user can run it through python or in VSCode
