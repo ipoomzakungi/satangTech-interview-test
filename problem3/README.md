@@ -15,3 +15,4 @@ in this code I use dict_Done to keep the value that we already check it
 8.We return the value 0 and 1 in a list [0, 1], indicating that the numbers at those value (2 and 7) add up to target.
 
 to use the program , the user can run it through python or in VSCode
+if it return `OK` it mean the code Pass the test case that I created
