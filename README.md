@@ -1,3 +1,7 @@
+### to run the python file user can using `python [file name].py` or `python -m unittest [file name].py` to run just the unittest ###
+
+
+
 # interview-test
 
 Please select 3 problems out of 5 to solve:
