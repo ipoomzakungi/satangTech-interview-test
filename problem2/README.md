@@ -8,5 +8,5 @@ The `deposit` function accepts two arguments: `account` and `money`. It checks i
 
 Similarly, the `withdraw` function checks the range of the account and also checks the balance of that account. If the account exists and has enough balance, the `withdraw` function subtracts the given `money` from the account.
 
-to use the program , the user can run it through python or in VSCode
+to use the program , the user can run it through terminal by this command `python -m unittest bankSystem.py` or using the VSCode
 if it return `OK` it mean the code Pass the test case that I created

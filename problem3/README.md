@@ -14,5 +14,5 @@ in this code I use dict_Done to keep the value that we already check it
 7.We check if 2 is in the seen dictionary. It is, with value 0.
 8.We return the value 0 and 1 in a list [0, 1], indicating that the numbers at those value (2 and 7) add up to target.
 
-to use the program , the user can run it through python or in VSCode
+to use the program , the user can run it through terminal by this command `python -m unittest twoSum.py` or using the VSCode
 if it return `OK` it mean the code Pass the test case that I created

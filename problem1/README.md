@@ -9,4 +9,4 @@ lets say we want to convert 98 to roman
 3. as same as step 1 we gonna get 'V' and do the step 2 again
 4. we loop until the integer number is 0
 
-to use the program , the user can run it through python or in VSCode
+to use the program , the user can run it through terminal by this command `python -m unittest int2roman.py` or using the VSCode
