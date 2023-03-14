@@ -28,5 +28,5 @@ class TestTwoSum(unittest.TestCase):
         expected_output = [0, 1]
         self.assertEqual(twoSum(nums, target), expected_output)
         
-unittest.main()
-
+if __name__ == '__main__':
+    unittest.main()

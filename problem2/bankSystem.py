@@ -51,8 +51,5 @@ class TestBank(unittest.TestCase):
         
 
 
-suite = unittest.TestSuite()
-suite.addTest(unittest.makeSuite(TestBank))
-
-runner = unittest.TextTestRunner()
-result = runner.run(suite)
+if __name__ == '__main__':
+    unittest.main()

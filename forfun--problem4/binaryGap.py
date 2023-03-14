@@ -1,6 +1,7 @@
+import unittest
+
 def solution(N):
     binary = bin(N)[2:]
-    print(binary)
     max_gap = 0
     current_gap = 0
 
@@ -15,9 +16,14 @@ def solution(N):
     return max_gap
 
 
-assert solution(1041) == 5
-assert solution(529) == 4
-assert solution(20) == 1
-assert solution(15) == 0
-assert solution(32) == 0
-print("if non error shown so it pass the test case")
+class TestSolution(unittest.TestCase):
+
+    def test_solution(self):
+        self.assertEqual(solution(1041), 5)
+        self.assertEqual(solution(529), 4)
+        self.assertEqual(solution(20), 1)
+        self.assertEqual(solution(15), 0)
+        self.assertEqual(solution(32), 0)
+
+if __name__ == '__main__':
+    unittest.main()

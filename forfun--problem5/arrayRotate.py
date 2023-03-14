@@ -24,4 +24,5 @@ class TestRotation(unittest.TestCase):
         self.assertEqual(solution([1], 1), [1])
 
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
